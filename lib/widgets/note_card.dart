@@ -29,10 +29,9 @@ Widget noteCard(Function()? onTap, QueryDocumentSnapshot doc){
           Text(
             doc["note_content"],
             style: AppStyle.mainContent,
-            // maxLines: 3,
+            maxLines: 3,
             overflow: TextOverflow.ellipsis
           )
-
         ],
       ),
     ),
